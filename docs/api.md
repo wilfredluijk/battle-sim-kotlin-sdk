@@ -47,6 +47,8 @@ Connection/welcome timeouts are ten seconds; incoming frames and queues are boun
 
 The default endpoint is `ws://localhost:7878/bot`. URLs must use `ws` or `wss`, with no
 embedded credentials, query, or fragment. The CLI additionally requires the `/bot` path.
+The hosted workshop endpoint is `wss://93.190.187.250/bot` and requires the participant
+token assigned to your team.
 `ConnectionArguments.resolve(args, environment, name)` returns `RunOptions` and parses
 `--url`, `--host`, `--port`, and `--env-file`. A selected file replaces both ambient settings;
 an explicit endpoint overrides its URL. File contents are parsed as data, never executed.

@@ -26,9 +26,10 @@ runs the included patrol bot. Alternatively, download it from
 [Releases](https://github.com/wilfredluijk/battle-sim-kotlin-sdk/releases).
 
 Set `BATTLE_SERVER_URL` and `BATTLE_BOT_TOKEN` to the endpoint and participant credential
-provided by your operator. Without an endpoint override, the SDK uses `ws://localhost:7878/bot`.
-The CLI supports `--url`, `--host`, `--port`, and `--env-file`; credentials are read from the
-environment or participant file.
+provided by your operator. The hosted workshop endpoint is `wss://93.190.187.250/bot`
+and requires your assigned participant token. Without an endpoint override, the SDK uses
+`ws://localhost:7878/bot`. The CLI supports `--url`, `--host`, `--port`, and `--env-file`;
+credentials are read from the environment or participant file.
 
 ## Write a bot
 
