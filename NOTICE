@@ -1,0 +1,6 @@
+Battle Sim Kotlin SDK
+Kotlin port of https://github.com/wilfredluijk/battle-sim-python-sdk
+Source revision: 816fa9baba75c7294561a6f111aa2735f4bbdd01
+Original SDK Copyright (c) 2026 battle-sim contributors, MIT licensed.
+The JVM transport also adapts the MIT-licensed battle-sim-java-sdk.
+Kotlin port Copyright (c) 2026 Wilfred Luijk and contributors.
